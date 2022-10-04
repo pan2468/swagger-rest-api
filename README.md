@@ -35,7 +35,7 @@
 
 
 ### 👉 프로젝트 설명
-+ 프로젝트 설명: <a href="">REST API 프로젝트</a>
++ 프로젝트 설명: <a href="https://pan2468.tistory.com/category/Toy%20Project/%EA%B3%BC%EC%A0%9C">REST API 프로젝트</a>
   
 
 
