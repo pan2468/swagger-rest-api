@@ -26,9 +26,9 @@
 
 ### 📌 트러블슈팅 경험
 <details>
-<summary>프로젝트 생성 오류</summary>
+<summary></summary>
 <div markdown="1">
-- org.codehaus.plexus.component.repository.exception.ComponentLookupException: 
+
  
 </div>
 </details>  
