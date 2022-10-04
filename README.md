@@ -16,7 +16,7 @@
 #### Back-End
 + Java 8
 + SpringBoot 2.7.4
-+ Maven
++ Gradle
 + H2 Database
 + TDD
 
