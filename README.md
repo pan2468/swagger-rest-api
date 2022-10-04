@@ -15,7 +15,7 @@
 ### 🛠 사용 기술(기술스택)
 #### Back-End
 + Java 8
-+ SpringBoot 2.7.4
++ SpringBoot 2.6.12
 + Gradle
 + H2 Database
 + TDD
