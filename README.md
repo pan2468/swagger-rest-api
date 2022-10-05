@@ -24,9 +24,10 @@
 
 ### 📌 트러블슈팅 경험
 <details>
-<summary></summary>
+<summary>Hello World 테스트 오류</summary>
 <div markdown="1">
 
+- Execution failed for task ':test'.  
  
 </div>
 </details>  
