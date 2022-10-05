@@ -1,6 +1,6 @@
 ## 📌 Author-Book
 
-### 👉 프로젝트 목적 
+###  프로젝트 목적 
 + Author(저자), Book(도서) 연관관계 매핑하기
 + RestApi CRUD 구현하기 
 + TDD(테스트 주도 개발) 코드 구현하기 
@@ -8,7 +8,7 @@
 ### 📌 요구사항 Notion
  https://aeolian-caravan-34d.notion.site/c187b31dd4ed4934b7fbf085cbfc1d75
 
-### 👉 제작기간 / 참여인원
+###  제작기간 / 참여인원
 + 제작기간: 2022-10-04 ~ 진행
 + 참여인원: 개인 프로젝트
 
@@ -23,9 +23,9 @@
 ### IDE
 + InteliJ IDEA
 
-### 📌 핵심트러블슈팅 경험
+###  핵심트러블슈팅 경험
 
-### 📌 트러블슈팅 경험
+###  트러블슈팅 경험
 <details>
 <summary>테스트 실행 오류</summary>
 <div markdown="1">
@@ -75,7 +75,7 @@
 </details> 
 
 
-### 기술적 issue 해결 과정
+### 💡 기술적 issue 해결 과정
 + 프로젝트 생성<br> 
 https://pan2468.tistory.com/124?category=1129064
 
