@@ -20,7 +20,7 @@
 + H2 Database
 + TDD
 
-### IDE
+### IDE 개발환경
 + InteliJ IDEA
 
 ###  핵심트러블슈팅 경험
