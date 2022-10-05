@@ -42,7 +42,7 @@
 - java.lang.AssertionError: Status Expected :200 Actual :404
 - 원인: hello 메소드 get 주소와 같지 않아 발생
 
-### 기존 코드
+#### 기존 코드
 ~~~
    @Test
     public void Hello()throws Exception{
@@ -54,13 +54,13 @@
     }
 ~~~
 
-### 개선 코드
+#### 개선 코드
 ~~~
    @Test
     public void Hello()throws Exception{
         String hello = "hello";
 
-        mvc.perform(get("/hello"))
+        mvc.perform(get("/hello")) // 변경
                 .andExpect(status().isOk())
                 .andExpect(content().string(hello));
     }
