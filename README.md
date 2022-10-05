@@ -27,7 +27,10 @@
 <summary>Hello World 테스트 오류</summary>
 <div markdown="1">
 
-- Execution failed for task ':test'.  
+- Execution failed for task ':test'. 
+- 원인: InteliJ IDEA Run test using: Gradle -> InteliJ IDEA 변경 후 개선 
+
+<img src="https://user-images.githubusercontent.com/58936137/193999166-8faac97d-ec01-444f-aa82-1bd76e5a4395.png" width="500px" height="600px">
  
 </div>
 </details>  
