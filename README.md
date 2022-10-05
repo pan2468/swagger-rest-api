@@ -20,6 +20,9 @@
 + H2 Database
 + TDD
 
+### IDE
++ InteliJ IDEA
+
 ### 📌 핵심트러블슈팅 경험
 
 ### 📌 트러블슈팅 경험
