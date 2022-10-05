@@ -36,7 +36,7 @@
 
 ### 기술적 issue 해결 과정
 + 프로젝트 생성<br> 
-https://pan2468.tistory.com/category/Toy%20Project/%EA%B3%BC%EC%A0%9C"
+https://pan2468.tistory.com/124?category=1129064
   
 
 
