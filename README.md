@@ -48,6 +48,7 @@
 - 원인: hello 메소드 get 주소와 같지 않아 발생
 
 #### 기존 코드
+##### HelloControllerTest.class
 ~~~
    @Test
     public void Hello()throws Exception{
@@ -60,6 +61,7 @@
 ~~~
 
 #### 개선 코드
+##### HelloControllerTest.class 
 ~~~
    @Test
     public void Hello()throws Exception{
