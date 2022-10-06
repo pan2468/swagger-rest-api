@@ -18,6 +18,7 @@
 + SpringBoot 2.6.12
 + Gradle
 + H2 Database
++ MySQL
 + TDD
 
 ### 5. IDE 개발환경
