@@ -5,8 +5,6 @@
 + RestApi CRUD 구현하기 
 + TDD(테스트 주도 개발) 코드 구현하기 
 
-### 2. 요구사항 Notion
- https://aeolian-caravan-34d.notion.site/c187b31dd4ed4934b7fbf085cbfc1d75
 
 ###  3. 제작기간 / 참여인원
 + 제작기간: 2022-10-04 ~ 진행
