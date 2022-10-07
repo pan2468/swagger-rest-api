@@ -93,7 +93,7 @@ https://pan2468.tistory.com/124?category=1129064
 https://pan2468.tistory.com/125
 
 + Entity 생성하기 <br>
-  
+https://pan2468.tistory.com/126  
 
 
 
