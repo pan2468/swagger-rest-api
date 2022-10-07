@@ -78,9 +78,11 @@
 </details> 
 
 <details>
-<summary></summary>
+<summary>Repository 테스트 등록 실행오류</summary>
 <div markdown="1">
-
+ 
+ - java.lang.NullPointerException
+	at com.sprint.repository.BookRepositoryTest.createBookTest(BookRepositoryTest.java:39)
 
 </div>
 </details> 
