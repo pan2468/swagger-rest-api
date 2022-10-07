@@ -78,10 +78,9 @@
 </details> 
 
 <details>
-<summary>Entity 실행 오류</summary>
+<summary></summary>
 <div markdown="1">
 
-- Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not determine type for: com.sprint.entity.Author, at table: book, for columns: [org.hibernate.mapping.Column(author)]
 
 </div>
 </details> 
