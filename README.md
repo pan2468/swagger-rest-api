@@ -97,7 +97,7 @@ https://pan2468.tistory.com/125
 + Entity 생성하기 <br>
 https://pan2468.tistory.com/126  
 
-+ Book 등록하기 <br>
++ Book 테스트 등록하기 <br>
 
 
 
