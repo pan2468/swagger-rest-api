@@ -94,6 +94,15 @@
 </div>
 </details> 
 
+<details>
+<summary>Repository 테스트  실행오류</summary>
+<div markdown="1">
+
+- org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.sprint.service.BookServiceTest': 
+
+</div>
+</details> 
+
 ### 9. 기술적 issue 해결 과정
 + 프로젝트 생성<br> 
 https://pan2468.tistory.com/124?category=1129064
