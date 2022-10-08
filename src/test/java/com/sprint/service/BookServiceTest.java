@@ -34,6 +34,4 @@ class BookServiceTest {
         book.setCell("010-1111-2222");
         bookRepository.save(book);
     }
-
-
 }
