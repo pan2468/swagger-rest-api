@@ -1,2 +1,5 @@
-package com.sprint.controller;public class RestController {
+package com.sprint.controller;
+
+public class BookController {
+
 }
