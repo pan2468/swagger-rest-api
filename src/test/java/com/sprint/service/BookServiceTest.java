@@ -9,10 +9,13 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.TestPropertySource;
 import org.springframework.transaction.annotation.Transactional;
 
+import javax.persistence.EntityNotFoundException;
 import java.time.LocalDateTime;
 import java.util.List;
+import java.util.Optional;
+
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @SpringBootTest
 @Transactional
@@ -45,4 +48,19 @@ class BookServiceTest {
         Book list = bookList.get(0);
         System.out.println(list.toString());
     }
+
+    @Test
+    @DisplayName("Service 상세 조회")
+    public void findByIdBookTest(){
+        this.createBookTest();
+        List<Book> bookList = bookRepository.findAll();
+
+        Book book = bookList.get(0);
+        Book list = bookRepository.findById(book.getId())
+                .orElseThrow(EntityNotFoundException::new);
+
+        assertEquals(list.getId(), book.getId());
+    }
+
+
 }
