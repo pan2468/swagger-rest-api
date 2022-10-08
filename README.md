@@ -83,7 +83,7 @@
  
  - java.lang.NullPointerException
 	at com.sprint.repository.BookRepositoryTest.createBookTest(BookRepositoryTest.java:39)
- - Find Why bookRepository could be null
+ - Find Why bookRepository could be null <br>
  - 해결 원인: 정확한 원인을 찾지 못했지만 InteliJ IDEA > Invalidate Caches > Invalidate and Restart 클릭하여 재시작 후 해결
  <br>
  File > Invalidate Caches 클릭
