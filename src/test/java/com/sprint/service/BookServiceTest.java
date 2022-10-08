@@ -10,7 +10,8 @@ import org.springframework.test.context.TestPropertySource;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
-
+import java.util.List;
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
@@ -33,5 +34,15 @@ class BookServiceTest {
         book.setPrice(1500);
         book.setCell("010-1111-2222");
         bookRepository.save(book);
+    }
+
+    @Test
+    @DisplayName("Service 테스트 조회")
+    public void findBookTest(){
+        this.createBookTest();
+        List<Book> bookList = bookRepository.findAll();
+
+        Book list = bookList.get(0);
+        System.out.println(list.toString());
     }
 }

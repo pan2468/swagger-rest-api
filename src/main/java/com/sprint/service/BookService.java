@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+
 @Service
 @Transactional
 public class BookService {
@@ -15,5 +17,11 @@ public class BookService {
 
     public void save(Book book) {
         bookRepository.save(book);
+    }
+
+    public List<Book> findAll() {
+        List<Book> list = bookRepository.findAll();
+
+        return list;
     }
 }
