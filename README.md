@@ -95,7 +95,7 @@
 </details> 
 
 <details>
-<summary>Repository 테스트  실행오류</summary>
+<summary>Repository 테스트 삭제 실행오류</summary>
 <div markdown="1">
 
 - org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.sprint.service.BookServiceTest': 
