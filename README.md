@@ -103,6 +103,15 @@
 </div>
 </details> 
 
+<details>
+<summary>Swagger Run 실행 오류</summary>
+<div markdown="1">
+
+- org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+
+</div>
+</details> 
+
 ### 9. 기술적 issue 해결 과정
 + 프로젝트 생성<br> 
 https://pan2468.tistory.com/124?category=1129064
