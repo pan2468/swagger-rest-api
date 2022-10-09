@@ -108,6 +108,11 @@
 <div markdown="1">
 
 - org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+- 해결원인: application.properties 파일에서 spring.mvc.pathmatch.matching-strategy=ant_path_matcher 설정을 안하여 오류 
+
+#### application.properties
+<img src="https://user-images.githubusercontent.com/58936137/194755394-98e79aad-ec05-4de5-b1be-ccfec9e5cdb7.png" width="400px" height="200px">
+
 
 </div>
 </details> 
