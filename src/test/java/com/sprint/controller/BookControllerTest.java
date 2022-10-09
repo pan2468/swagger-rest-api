@@ -35,7 +35,7 @@ class BookControllerTest {
         book.setPublication_date(LocalDateTime.now());
         book.setPrice(1500);
         book.setCell("010-1111-2222");
-        bookService.save(book);
+        bookService.bookSave(book);
     }
 
     @Test

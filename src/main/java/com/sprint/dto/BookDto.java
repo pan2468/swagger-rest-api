@@ -1,3 +1,5 @@
+package com.sprint.dto;
+
 import lombok.Getter;
 import lombok.Setter;
 
