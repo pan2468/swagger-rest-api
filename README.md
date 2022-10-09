@@ -111,9 +111,9 @@
 - 해결원인: SpringBoot 2.6 버전 이상 일경우 spring.mvc.pathmatch.matching-strategy 값이 ant_apth_matcher에서 path_pattern_parser로 변경되면서 오류발생함 
 
 #### application.properties
-<img src="https://user-images.githubusercontent.com/58936137/194755394-98e79aad-ec05-4de5-b1be-ccfec9e5cdb7.png" width="300px" height="50px">
+<img src="https://user-images.githubusercontent.com/58936137/194755394-98e79aad-ec05-4de5-b1be-ccfec9e5cdb7.png" width="400px" height="50px">
 <br>
-💡 SpringBoot 2.6 버전 이상이라서 application.properties 파일에 spring.mvc.pathmatch.matching-strategy=ant_path_matcher 설정하여    	
+💡 SpringBoot 2.6 버전 이상이라서 application.properties 파일에 spring.mvc.pathmatch.matching-strategy=ant_path_matcher 설정하여 개선함.    	
 
 </div>
 </details> 
