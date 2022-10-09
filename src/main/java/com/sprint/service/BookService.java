@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 @Transactional
@@ -25,5 +26,24 @@ public class BookService {
         List<Book> list = bookRepository.findAll();
 
         return list;
+    }
+
+    public Optional<Book> findById(Long id) {
+        Optional<Book> detail = bookRepository.findById(id);
+
+        return detail;
+    }
+
+    public Optional<Book> update(Book book) {
+        Book update = bookRepository.save(book);
+
+        return Optional.of(update);
+    }
+
+    public Optional<Book> delete(Long id) {
+
+        Optional<Book> book = bookRepository.deleteAllById(id);
+
+        return book;
     }
 }
