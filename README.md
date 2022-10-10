@@ -127,6 +127,14 @@
 
 - 2022-10-10 19:47:24.353  WARN 9836 --- [io-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors<EOL>Field error in object 'book' on field 'publication_date': rejected value [2022-10-10]; codes [typeMismatch.book.publication_date,typeMismatch.publication_date,typeMismatch.java.time.LocalDateTime,typeMismatch]; 
 
+- 해결 원인: Book Entity 모델 정보에서 private LocalDateTime publication_date = LocalDateTime.now(); 변수 수정하여 오류 개선
+
+#### 기존 코드 
+
+
+#### 개선 코드 
+<img src="https://user-images.githubusercontent.com/58936137/194856207-73ac2559-7414-4b16-a009-dde2c73fc18d.png" height="150px">
+
 </div>
 </details> 
 
