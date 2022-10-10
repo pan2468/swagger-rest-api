@@ -2,7 +2,7 @@
 
 ###  1. 프로젝트 목적 
 + Author(저자), Book(도서) 연관관계 매핑하기
-+ RestApi CRUD 구현하기 
++ SpringBoot와 Swagger UI 연동하여 REST API 개발 진행하기
 + TDD(테스트 주도 개발) 코드 구현하기 
 
 
@@ -23,6 +23,9 @@
 + InteliJ IDEA
 
 ### 6. MSA 아키텍처
+> MSA(Micro Service Architecture)이란 하나의 애플리케이션에 담아져 있는 서버를 작은 컴포넌트 별로 쪼개어 관리하는 아키텍처입니다. 많은 사용자들이 하나의 서버에 대용량 트래픽 발생으로 장애가 생기기 때문에 이를 대처하기 위해서 로드밸런싱으로 서버를 분산하여 관리합니다. 
+
+<img src="https://user-images.githubusercontent.com/58936137/194818072-e48d7b13-7cde-4bc6-b2e2-9e7411eace86.png" width="600px" height="400px">
 
 ###  7. 핵심트러블슈팅 경험
 
@@ -118,6 +121,25 @@
 </div>
 </details> 
 
+<details>
+<summary>LocalDataTime null 오류</summary>
+<div markdown="1">
+
+- 2022-10-10 19:47:24.353  WARN 9836 --- [io-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors<EOL>Field error in object 'book' on field 'publication_date': rejected value [2022-10-10]; codes [typeMismatch.book.publication_date,typeMismatch.publication_date,typeMismatch.java.time.LocalDateTime,typeMismatch]; 
+
+- 해결 원인: Book Entity 모델 정보에서 private LocalDateTime publication_date = LocalDateTime.now(); 변수 수정하여 오류 개선
+
+#### 기존 코드 
+<img src="https://user-images.githubusercontent.com/58936137/194856607-0a47c2b4-1436-4f50-86b8-74f1723435f0.png" width="500px" height="80px"><br>
++ POST 방식으로 요청하면 LocalDateTime null 값이 나옴 	
+
+#### 개선 코드 
+<img src="https://user-images.githubusercontent.com/58936137/194856207-73ac2559-7414-4b16-a009-dde2c73fc18d.png" width="500px" height="80px"><br>
++ LocalDateTime.now() 코드 추가 후 개선
+	
+</div>
+</details> 
+
 ### 9. 기술적 issue 해결 과정
 + 프로젝트 생성<br> 
 https://pan2468.tistory.com/124?category=1129064
@@ -134,7 +156,8 @@ https://pan2468.tistory.com/127
 + SpringBoot와 Swagger UI 연동하기<br>
 https://pan2468.tistory.com/128
 
-+ Book 테스트 조회 <br>
++ Book REST API CRUD 코드 작성 <br>
+https://pan2468.tistory.com/129	
 
 
 
