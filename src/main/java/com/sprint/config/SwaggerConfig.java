@@ -44,7 +44,7 @@ public class SwaggerConfig {
         return new ApiInfoBuilder()
                 .title("API")
                 .description("SpringBoot With Swagger")
-                .contact(new Contact("SpringBoot with Swagger","https://github.com/go-coding1","sample@email.com"))
+                .contact(new Contact("SpringBoot with Swagger","https://github.com/pan2468","pan1129@naver.com"))
                 .version("1.0")
                 .build();
     }

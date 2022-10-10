@@ -33,7 +33,7 @@ public class Book {
     private int total_number;
 
     //발간년도
-    private LocalDateTime publication_date;
+    private LocalDateTime publication_date = LocalDateTime.now();
 
     //가격
     private int price;
