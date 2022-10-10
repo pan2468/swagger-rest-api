@@ -130,11 +130,11 @@
 - 해결 원인: Book Entity 모델 정보에서 private LocalDateTime publication_date = LocalDateTime.now(); 변수 수정하여 오류 개선
 
 #### 기존 코드 
-<img src="https://user-images.githubusercontent.com/58936137/194856607-0a47c2b4-1436-4f50-86b8-74f1723435f0.png" width="500px" height="80px">
+<img src="https://user-images.githubusercontent.com/58936137/194856607-0a47c2b4-1436-4f50-86b8-74f1723435f0.png" width="500px" height="80px"><br>
 + POST 방식으로 요청하면 LocalDateTime null 값이 나옴 	
 
 #### 개선 코드 
-<img src="https://user-images.githubusercontent.com/58936137/194856207-73ac2559-7414-4b16-a009-dde2c73fc18d.png" width="500px" height="80px">
+<img src="https://user-images.githubusercontent.com/58936137/194856207-73ac2559-7414-4b16-a009-dde2c73fc18d.png" width="500px" height="80px"><br>
 + LocalDateTime.now() 코드 추가 후 개선
 	
 </div>
