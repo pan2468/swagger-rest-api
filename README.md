@@ -130,7 +130,7 @@
 - 해결 원인: Book Entity 모델 정보에서 private LocalDateTime publication_date = LocalDateTime.now(); 변수 수정하여 오류 개선
 
 #### 기존 코드 
-
+<img src="https://user-images.githubusercontent.com/58936137/194856607-0a47c2b4-1436-4f50-86b8-74f1723435f0.png" width="500px" height="80px">
 
 #### 개선 코드 
 <img src="https://user-images.githubusercontent.com/58936137/194856207-73ac2559-7414-4b16-a009-dde2c73fc18d.png" width="500px" height="80px">
