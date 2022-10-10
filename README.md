@@ -2,7 +2,7 @@
 
 ###  1. 프로젝트 목적 
 + Author(저자), Book(도서) 연관관계 매핑하기
-+ RestApi CRUD 구현하기 
++ SpringBoot와 Swagger UI 연동하여 REST API 개발 진행하기
 + TDD(테스트 주도 개발) 코드 구현하기 
 
 
