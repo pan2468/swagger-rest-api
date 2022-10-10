@@ -24,6 +24,8 @@
 
 ### 6. MSA 아키텍처
 
+<img src="https://user-images.githubusercontent.com/58936137/194818072-e48d7b13-7cde-4bc6-b2e2-9e7411eace86.png" width="600px" height="400px">
+
 ###  7. 핵심트러블슈팅 경험
 
 ###  8. 트러블슈팅 경험
