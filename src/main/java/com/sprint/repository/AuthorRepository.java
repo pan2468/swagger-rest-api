@@ -1,5 +1,8 @@
+package com.sprint.repository;
 
+import com.sprint.entity.Author;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface AuthorRepository {
+public interface AuthorRepository extends JpaRepository<Author, Long> {
 
 }
