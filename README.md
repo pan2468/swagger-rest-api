@@ -133,7 +133,7 @@
 
 
 #### 개선 코드 
-<img src="https://user-images.githubusercontent.com/58936137/194856207-73ac2559-7414-4b16-a009-dde2c73fc18d.png" width="300px" height="80px">
+<img src="https://user-images.githubusercontent.com/58936137/194856207-73ac2559-7414-4b16-a009-dde2c73fc18d.png" width="500px" height="80px">
 
 </div>
 </details> 
