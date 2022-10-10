@@ -121,6 +121,15 @@
 </div>
 </details> 
 
+<details>
+<summary>LocalDataTime null 오류</summary>
+<div markdown="1">
+
+- 2022-10-10 19:47:24.353  WARN 9836 --- [io-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors<EOL>Field error in object 'book' on field 'publication_date': rejected value [2022-10-10]; codes [typeMismatch.book.publication_date,typeMismatch.publication_date,typeMismatch.java.time.LocalDateTime,typeMismatch]; 
+
+</div>
+</details> 
+
 ### 9. 기술적 issue 해결 과정
 + 프로젝트 생성<br> 
 https://pan2468.tistory.com/124?category=1129064
