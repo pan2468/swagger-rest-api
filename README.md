@@ -27,11 +27,6 @@
 
 <img src="https://user-images.githubusercontent.com/58936137/194818072-e48d7b13-7cde-4bc6-b2e2-9e7411eace86.png" width="600px" height="400px">
 
-<br>
-
-<img src="https://user-images.githubusercontent.com/58936137/194819423-e67f318b-4ce2-426c-af93-2a43c6e09597.png" width="600px" height="400px">
-
-
 ###  7. 핵심트러블슈팅 경험
 
 ###  8. 트러블슈팅 경험
